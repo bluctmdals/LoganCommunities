@@ -1,0 +1,2175 @@
+Logan_Communities_Map.html
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aac7ea940f2b857004c109dc3688aea0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aac7ea940f2b857004c109dc3688aea0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aac7ea940f2b857004c109dc3688aea0 = L.map(
+                "map_aac7ea940f2b857004c109dc3688aea0",
+                {
+                    center: [28.347173060256416, -81.21802923333334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_07a92fca0cc3ef5b270d1d53a4816c2a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+            var marker_7cef0d39d834c728450ced9230e4695b = L.marker(
+                [27.6479926, -80.4575726],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_356a59de6f15b5ae3bf13994d91048ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57389817c90396cbe00787d4d250abed = $(`<div id="html_57389817c90396cbe00787d4d250abed" style="width: 100.0%; height: 100.0%;">Woodfield</div>`)[0];
+            popup_356a59de6f15b5ae3bf13994d91048ce.setContent(html_57389817c90396cbe00787d4d250abed);
+        
+
+        marker_7cef0d39d834c728450ced9230e4695b.bindPopup(popup_356a59de6f15b5ae3bf13994d91048ce)
+        ;
+
+        
+    
+    
+            marker_7cef0d39d834c728450ced9230e4695b.bindTooltip(
+                `<div>
+                     Woodfield
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69bfb2de643ea7e0882d8fe6ceda3f0b = L.marker(
+                [27.641097, -80.4673629],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_a6742ba1125c4ae9f7c3e3bf5d1e4451 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a07984b45ff9de177913ae71218eff6f = $(`<div id="html_a07984b45ff9de177913ae71218eff6f" style="width: 100.0%; height: 100.0%;">Vista Plantation</div>`)[0];
+            popup_a6742ba1125c4ae9f7c3e3bf5d1e4451.setContent(html_a07984b45ff9de177913ae71218eff6f);
+        
+
+        marker_69bfb2de643ea7e0882d8fe6ceda3f0b.bindPopup(popup_a6742ba1125c4ae9f7c3e3bf5d1e4451)
+        ;
+
+        
+    
+    
+            marker_69bfb2de643ea7e0882d8fe6ceda3f0b.bindTooltip(
+                `<div>
+                     Vista Plantation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_beb6a95dc674e241e7a11e98d92f633b = L.marker(
+                [27.61006, -80.3798445],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_cad4b250d3dfca17b941857e3439f16a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf9673588f386fc02d0288d17204b95a = $(`<div id="html_bf9673588f386fc02d0288d17204b95a" style="width: 100.0%; height: 100.0%;">Vista Gardens</div>`)[0];
+            popup_cad4b250d3dfca17b941857e3439f16a.setContent(html_bf9673588f386fc02d0288d17204b95a);
+        
+
+        marker_beb6a95dc674e241e7a11e98d92f633b.bindPopup(popup_cad4b250d3dfca17b941857e3439f16a)
+        ;
+
+        
+    
+    
+            marker_beb6a95dc674e241e7a11e98d92f633b.bindTooltip(
+                `<div>
+                     Vista Gardens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7542b223df1de78cfe2ff1c9a902b723 = L.marker(
+                [27.643989, -80.4065835],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_b37ebe80170ac5989ab963640a8ef680 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d51636ab403ad4bec94fcf2234160757 = $(`<div id="html_d51636ab403ad4bec94fcf2234160757" style="width: 100.0%; height: 100.0%;">Vista Del Mar</div>`)[0];
+            popup_b37ebe80170ac5989ab963640a8ef680.setContent(html_d51636ab403ad4bec94fcf2234160757);
+        
+
+        marker_7542b223df1de78cfe2ff1c9a902b723.bindPopup(popup_b37ebe80170ac5989ab963640a8ef680)
+        ;
+
+        
+    
+    
+            marker_7542b223df1de78cfe2ff1c9a902b723.bindTooltip(
+                `<div>
+                     Vista Del Mar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8b5b5354861a10084daa3f7120d8e5a = L.marker(
+                [28.3918593, -81.2665871],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_962da4d410925999845df95e2cdaba20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_318b60acd80179b785f08bbe06e9a72d = $(`<div id="html_318b60acd80179b785f08bbe06e9a72d" style="width: 100.0%; height: 100.0%;">VillageWalk at Lake Nona</div>`)[0];
+            popup_962da4d410925999845df95e2cdaba20.setContent(html_318b60acd80179b785f08bbe06e9a72d);
+        
+
+        marker_d8b5b5354861a10084daa3f7120d8e5a.bindPopup(popup_962da4d410925999845df95e2cdaba20)
+        ;
+
+        
+    
+    
+            marker_d8b5b5354861a10084daa3f7120d8e5a.bindTooltip(
+                `<div>
+                     VillageWalk at Lake Nona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75ac97b0530853167417c217e097a8a1 = L.marker(
+                [29.0329544, -81.03185],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_9bfc0d7146a96396179f189155e339e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_553be426f3bcd9f4775a11a7d7301604 = $(`<div id="html_553be426f3bcd9f4775a11a7d7301604" style="width: 100.0%; height: 100.0%;">Venetian Bay</div>`)[0];
+            popup_9bfc0d7146a96396179f189155e339e0.setContent(html_553be426f3bcd9f4775a11a7d7301604);
+        
+
+        marker_75ac97b0530853167417c217e097a8a1.bindPopup(popup_9bfc0d7146a96396179f189155e339e0)
+        ;
+
+        
+    
+    
+            marker_75ac97b0530853167417c217e097a8a1.bindTooltip(
+                `<div>
+                     Venetian Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dc745510362070e3dab7c2bccfda32d = L.marker(
+                [28.230071, -81.2435482],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_63c3c8ccb202ea9c5a47325f4fc354fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e32dfb0582acbe9d49b6124d8a8cc988 = $(`<div id="html_e32dfb0582acbe9d49b6124d8a8cc988" style="width: 100.0%; height: 100.0%;">Twin Lakes</div>`)[0];
+            popup_63c3c8ccb202ea9c5a47325f4fc354fc.setContent(html_e32dfb0582acbe9d49b6124d8a8cc988);
+        
+
+        marker_5dc745510362070e3dab7c2bccfda32d.bindPopup(popup_63c3c8ccb202ea9c5a47325f4fc354fc)
+        ;
+
+        
+    
+    
+            marker_5dc745510362070e3dab7c2bccfda32d.bindTooltip(
+                `<div>
+                     Twin Lakes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba81f8240a0ff6beb09513a9e792ae4c = L.marker(
+                [28.6224069, -81.7900556],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_40186a5d202af400422f42d89a2ae0ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb6fda9e92e78cc314e566afb2b4b446 = $(`<div id="html_fb6fda9e92e78cc314e566afb2b4b446" style="width: 100.0%; height: 100.0%;">Trilogy¬Æ Orlando</div>`)[0];
+            popup_40186a5d202af400422f42d89a2ae0ef.setContent(html_fb6fda9e92e78cc314e566afb2b4b446);
+        
+
+        marker_ba81f8240a0ff6beb09513a9e792ae4c.bindPopup(popup_40186a5d202af400422f42d89a2ae0ef)
+        ;
+
+        
+    
+    
+            marker_ba81f8240a0ff6beb09513a9e792ae4c.bindTooltip(
+                `<div>
+                     Trilogy¬Æ Orlando
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0881fd4debfa817aa61c066adda2defe = L.marker(
+                [28.2512382, -81.3370603],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_dfeafa6b4559e380c7975702cf42e9f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9de6435dd6c76f40a2a6db1ac155f6b1 = $(`<div id="html_9de6435dd6c76f40a2a6db1ac155f6b1" style="width: 100.0%; height: 100.0%;">Tohoqua Reserve</div>`)[0];
+            popup_dfeafa6b4559e380c7975702cf42e9f1.setContent(html_9de6435dd6c76f40a2a6db1ac155f6b1);
+        
+
+        marker_0881fd4debfa817aa61c066adda2defe.bindPopup(popup_dfeafa6b4559e380c7975702cf42e9f1)
+        ;
+
+        
+    
+    
+            marker_0881fd4debfa817aa61c066adda2defe.bindTooltip(
+                `<div>
+                     Tohoqua Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cb09f7ca273bf598cb85371a8a21e2c = L.marker(
+                [27.4976274, -81.5038575],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_c5c9a3407f0a39f6b7644048a493cfd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e1e173e973963819ed8d99f4009fc52 = $(`<div id="html_7e1e173e973963819ed8d99f4009fc52" style="width: 100.0%; height: 100.0%;">Thunderbird Hill</div>`)[0];
+            popup_c5c9a3407f0a39f6b7644048a493cfd4.setContent(html_7e1e173e973963819ed8d99f4009fc52);
+        
+
+        marker_2cb09f7ca273bf598cb85371a8a21e2c.bindPopup(popup_c5c9a3407f0a39f6b7644048a493cfd4)
+        ;
+
+        
+    
+    
+            marker_2cb09f7ca273bf598cb85371a8a21e2c.bindTooltip(
+                `<div>
+                     Thunderbird Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a392ca0611ab2a98f1b6221f0be4f98 = L.marker(
+                [27.6188134, -80.4296965],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_deb8131a2d9f264fb850c7dcfca079de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d583f7360581f2ed063eab5e354a1a18 = $(`<div id="html_d583f7360581f2ed063eab5e354a1a18" style="width: 100.0%; height: 100.0%;">The Willows</div>`)[0];
+            popup_deb8131a2d9f264fb850c7dcfca079de.setContent(html_d583f7360581f2ed063eab5e354a1a18);
+        
+
+        marker_6a392ca0611ab2a98f1b6221f0be4f98.bindPopup(popup_deb8131a2d9f264fb850c7dcfca079de)
+        ;
+
+        
+    
+    
+            marker_6a392ca0611ab2a98f1b6221f0be4f98.bindTooltip(
+                `<div>
+                     The Willows
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02e6a019af96ba0b6251503981ab90cd = L.marker(
+                [28.0191626, -80.7339746],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_b712882a11df34b0aa66acee48d0edcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6526c6aaed2bdedb890e950ae8e033aa = $(`<div id="html_6526c6aaed2bdedb890e950ae8e033aa" style="width: 100.0%; height: 100.0%;">The Timbers at Everlands</div>`)[0];
+            popup_b712882a11df34b0aa66acee48d0edcc.setContent(html_6526c6aaed2bdedb890e950ae8e033aa);
+        
+
+        marker_02e6a019af96ba0b6251503981ab90cd.bindPopup(popup_b712882a11df34b0aa66acee48d0edcc)
+        ;
+
+        
+    
+    
+            marker_02e6a019af96ba0b6251503981ab90cd.bindTooltip(
+                `<div>
+                     The Timbers at Everlands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_917810fcf79ff6c2e9defff0792ea1c9 = L.marker(
+                [28.1558057, -80.6596925],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_43f6450f0e58c56a579d5fc30dd23022 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b92afe10cc385e80d1a96bd819efcc52 = $(`<div id="html_b92afe10cc385e80d1a96bd819efcc52" style="width: 100.0%; height: 100.0%;">The Savannahs</div>`)[0];
+            popup_43f6450f0e58c56a579d5fc30dd23022.setContent(html_b92afe10cc385e80d1a96bd819efcc52);
+        
+
+        marker_917810fcf79ff6c2e9defff0792ea1c9.bindPopup(popup_43f6450f0e58c56a579d5fc30dd23022)
+        ;
+
+        
+    
+    
+            marker_917810fcf79ff6c2e9defff0792ea1c9.bindTooltip(
+                `<div>
+                     The Savannahs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d40f3111d4692c01c01d26f6f07a3a72 = L.marker(
+                [28.2276578, -81.6417864],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_621469a58d3cfee65b1f6a05e1d24b5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_148f70deb0fa096f69c6b777b16ead03 = $(`<div id="html_148f70deb0fa096f69c6b777b16ead03" style="width: 100.0%; height: 100.0%;">The Pointe at Siena Ridge</div>`)[0];
+            popup_621469a58d3cfee65b1f6a05e1d24b5b.setContent(html_148f70deb0fa096f69c6b777b16ead03);
+        
+
+        marker_d40f3111d4692c01c01d26f6f07a3a72.bindPopup(popup_621469a58d3cfee65b1f6a05e1d24b5b)
+        ;
+
+        
+    
+    
+            marker_d40f3111d4692c01c01d26f6f07a3a72.bindTooltip(
+                `<div>
+                     The Pointe at Siena Ridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03d2d4cc241b7e7f05e64c7556374d10 = L.marker(
+                [28.1990233, -81.1359944],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_c5236606d8dea51a799644fbca9cbb46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e2200b511a6de6b06c895a4ac7adec3 = $(`<div id="html_2e2200b511a6de6b06c895a4ac7adec3" style="width: 100.0%; height: 100.0%;">The Lakes at Harmony</div>`)[0];
+            popup_c5236606d8dea51a799644fbca9cbb46.setContent(html_2e2200b511a6de6b06c895a4ac7adec3);
+        
+
+        marker_03d2d4cc241b7e7f05e64c7556374d10.bindPopup(popup_c5236606d8dea51a799644fbca9cbb46)
+        ;
+
+        
+    
+    
+            marker_03d2d4cc241b7e7f05e64c7556374d10.bindTooltip(
+                `<div>
+                     The Lakes at Harmony
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_497d745167b2739c14478caa55eab265 = L.marker(
+                [28.8282262, -81.6246855],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_ef16989e75915b6bc50f6f449ca20356 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2afc266ba8d4e19ca12bc78fbc0d1b2f = $(`<div id="html_2afc266ba8d4e19ca12bc78fbc0d1b2f" style="width: 100.0%; height: 100.0%;">The Country Club of Mount Dora</div>`)[0];
+            popup_ef16989e75915b6bc50f6f449ca20356.setContent(html_2afc266ba8d4e19ca12bc78fbc0d1b2f);
+        
+
+        marker_497d745167b2739c14478caa55eab265.bindPopup(popup_ef16989e75915b6bc50f6f449ca20356)
+        ;
+
+        
+    
+    
+            marker_497d745167b2739c14478caa55eab265.bindTooltip(
+                `<div>
+                     The Country Club of Mount Dora
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_777e3f0df429e4d3ecdf4b4b512a80e2 = L.marker(
+                [28.5471766, -81.7011791],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_5fcc46aaf13c356f08c6e49e069213b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f73c63b471e60899020f5538367572a2 = $(`<div id="html_f73c63b471e60899020f5538367572a2" style="width: 100.0%; height: 100.0%;">Summit Greens</div>`)[0];
+            popup_5fcc46aaf13c356f08c6e49e069213b9.setContent(html_f73c63b471e60899020f5538367572a2);
+        
+
+        marker_777e3f0df429e4d3ecdf4b4b512a80e2.bindPopup(popup_5fcc46aaf13c356f08c6e49e069213b9)
+        ;
+
+        
+    
+    
+            marker_777e3f0df429e4d3ecdf4b4b512a80e2.bindTooltip(
+                `<div>
+                     Summit Greens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83ad9c9e7dfeeea18cb2fd4436e778c7 = L.marker(
+                [28.7873033, -81.747927],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_649f227ff20d77d8fae708fb2a3e698d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a2fdaeb11843347ee0eb2bacb8104be = $(`<div id="html_2a2fdaeb11843347ee0eb2bacb8104be" style="width: 100.0%; height: 100.0%;">Summit Chase Villas</div>`)[0];
+            popup_649f227ff20d77d8fae708fb2a3e698d.setContent(html_2a2fdaeb11843347ee0eb2bacb8104be);
+        
+
+        marker_83ad9c9e7dfeeea18cb2fd4436e778c7.bindPopup(popup_649f227ff20d77d8fae708fb2a3e698d)
+        ;
+
+        
+    
+    
+            marker_83ad9c9e7dfeeea18cb2fd4436e778c7.bindTooltip(
+                `<div>
+                     Summit Chase Villas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f3f3524f805ad01f7754545a5f913c6 = L.marker(
+                [29.0964748, -81.0319892],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_dd88b56ac68b12e716fb7ddd96403bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7047fdf5155a750886ad599c5fa0d99f = $(`<div id="html_7047fdf5155a750886ad599c5fa0d99f" style="width: 100.0%; height: 100.0%;">Summer Trees</div>`)[0];
+            popup_dd88b56ac68b12e716fb7ddd96403bc3.setContent(html_7047fdf5155a750886ad599c5fa0d99f);
+        
+
+        marker_1f3f3524f805ad01f7754545a5f913c6.bindPopup(popup_dd88b56ac68b12e716fb7ddd96403bc3)
+        ;
+
+        
+    
+    
+            marker_1f3f3524f805ad01f7754545a5f913c6.bindTooltip(
+                `<div>
+                     Summer Trees
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c91eece04b4b0465598a3e8a0edc791f = L.marker(
+                [28.7895565, -81.6019663],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_fa95d5be081dcfb168cf439190c5daeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10d05779ccc3cf8c9db9722f2e9d4be6 = $(`<div id="html_10d05779ccc3cf8c9db9722f2e9d4be6" style="width: 100.0%; height: 100.0%;">Sullivan Ranch</div>`)[0];
+            popup_fa95d5be081dcfb168cf439190c5daeb.setContent(html_10d05779ccc3cf8c9db9722f2e9d4be6);
+        
+
+        marker_c91eece04b4b0465598a3e8a0edc791f.bindPopup(popup_fa95d5be081dcfb168cf439190c5daeb)
+        ;
+
+        
+    
+    
+            marker_c91eece04b4b0465598a3e8a0edc791f.bindTooltip(
+                `<div>
+                     Sullivan Ranch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c65c6c9a1a13eede0f8e44f1d841652a = L.marker(
+                [28.1386339, -81.476522],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_ddcbd1488ba08d3071fa8ffc1b24432a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4abaf774c2d96cd14d2d2155e0950f4a = $(`<div id="html_4abaf774c2d96cd14d2d2155e0950f4a" style="width: 100.0%; height: 100.0%;">Solivita</div>`)[0];
+            popup_ddcbd1488ba08d3071fa8ffc1b24432a.setContent(html_4abaf774c2d96cd14d2d2155e0950f4a);
+        
+
+        marker_c65c6c9a1a13eede0f8e44f1d841652a.bindPopup(popup_ddcbd1488ba08d3071fa8ffc1b24432a)
+        ;
+
+        
+    
+    
+            marker_c65c6c9a1a13eede0f8e44f1d841652a.bindTooltip(
+                `<div>
+                     Solivita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abd1b0d027a37373342be86edfc5d007 = L.marker(
+                [28.3190035, -81.2417618],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_886b9ce9ea3fa9e9b9effb2005b4cef5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79cb45bbc922459d58c1d837b5b9a46a = $(`<div id="html_79cb45bbc922459d58c1d837b5b9a46a" style="width: 100.0%; height: 100.0%;">Serenity Reserve</div>`)[0];
+            popup_886b9ce9ea3fa9e9b9effb2005b4cef5.setContent(html_79cb45bbc922459d58c1d837b5b9a46a);
+        
+
+        marker_abd1b0d027a37373342be86edfc5d007.bindPopup(popup_886b9ce9ea3fa9e9b9effb2005b4cef5)
+        ;
+
+        
+    
+    
+            marker_abd1b0d027a37373342be86edfc5d007.bindTooltip(
+                `<div>
+                     Serenity Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96d49498fe583628623d9710f5a7c2bd = L.marker(
+                [28.8710151, -81.74999],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_3fd27baa01af355a1c36a443ae5642f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_493e5763a48441220ee9b843d0b02075 = $(`<div id="html_493e5763a48441220ee9b843d0b02075" style="width: 100.0%; height: 100.0%;">Scottish Highlands</div>`)[0];
+            popup_3fd27baa01af355a1c36a443ae5642f2.setContent(html_493e5763a48441220ee9b843d0b02075);
+        
+
+        marker_96d49498fe583628623d9710f5a7c2bd.bindPopup(popup_3fd27baa01af355a1c36a443ae5642f2)
+        ;
+
+        
+    
+    
+            marker_96d49498fe583628623d9710f5a7c2bd.bindTooltip(
+                `<div>
+                     Scottish Highlands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_492323bc2b8c5113c33167c6910d323f = L.marker(
+                [29.1086303, -81.0520052],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_c48791e659de975402cfdf4d3e2b6405 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaa6cd0f1fb1b1459c09e94cb5b6ca4b = $(`<div id="html_aaa6cd0f1fb1b1459c09e94cb5b6ca4b" style="width: 100.0%; height: 100.0%;">Royal Palm</div>`)[0];
+            popup_c48791e659de975402cfdf4d3e2b6405.setContent(html_aaa6cd0f1fb1b1459c09e94cb5b6ca4b);
+        
+
+        marker_492323bc2b8c5113c33167c6910d323f.bindPopup(popup_c48791e659de975402cfdf4d3e2b6405)
+        ;
+
+        
+    
+    
+            marker_492323bc2b8c5113c33167c6910d323f.bindTooltip(
+                `<div>
+                     Royal Palm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_799df8d5b6da89da91dcac882303020c = L.marker(
+                [28.6606274, -81.8652925],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_944c874e120a63ef6f08670684583f7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_553b1213f3f047d0d1fe67667db64c54 = $(`<div id="html_553b1213f3f047d0d1fe67667db64c54" style="width: 100.0%; height: 100.0%;">Royal Highlands</div>`)[0];
+            popup_944c874e120a63ef6f08670684583f7c.setContent(html_553b1213f3f047d0d1fe67667db64c54);
+        
+
+        marker_799df8d5b6da89da91dcac882303020c.bindPopup(popup_944c874e120a63ef6f08670684583f7c)
+        ;
+
+        
+    
+    
+            marker_799df8d5b6da89da91dcac882303020c.bindTooltip(
+                `<div>
+                     Royal Highlands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b462b92e5d329650dfb877fee9bb2b80 = L.marker(
+                [28.752191, -81.7599403],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_da7198d5db739f84393e6222d13074da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4c82529b222beb375e1234185ffe58e = $(`<div id="html_b4c82529b222beb375e1234185ffe58e" style="width: 100.0%; height: 100.0%;">Royal Harbor</div>`)[0];
+            popup_da7198d5db739f84393e6222d13074da.setContent(html_b4c82529b222beb375e1234185ffe58e);
+        
+
+        marker_b462b92e5d329650dfb877fee9bb2b80.bindPopup(popup_da7198d5db739f84393e6222d13074da)
+        ;
+
+        
+    
+    
+            marker_b462b92e5d329650dfb877fee9bb2b80.bindTooltip(
+                `<div>
+                     Royal Harbor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_619b7382bf6c5e404e2d1c318f09fe9b = L.marker(
+                [28.7120142, -81.8711087],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_0242e01d73351aa3efc5928062913e41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9069b3ae5c21c1f32834fc80f9d05f76 = $(`<div id="html_9069b3ae5c21c1f32834fc80f9d05f76" style="width: 100.0%; height: 100.0%;">Plantation at Leesburg</div>`)[0];
+            popup_0242e01d73351aa3efc5928062913e41.setContent(html_9069b3ae5c21c1f32834fc80f9d05f76);
+        
+
+        marker_619b7382bf6c5e404e2d1c318f09fe9b.bindPopup(popup_0242e01d73351aa3efc5928062913e41)
+        ;
+
+        
+    
+    
+            marker_619b7382bf6c5e404e2d1c318f09fe9b.bindTooltip(
+                `<div>
+                     Plantation at Leesburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b98858f7c37e737fba813d8774667f3 = L.marker(
+                [29.1514844, -81.0568358],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_f959f1d57d34b3ddfc88dbbf4bed8ebd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9e92fe91d7aed45c65fd840c0b1ed48 = $(`<div id="html_c9e92fe91d7aed45c65fd840c0b1ed48" style="width: 100.0%; height: 100.0%;">Pelican Bay Daytona Beach</div>`)[0];
+            popup_f959f1d57d34b3ddfc88dbbf4bed8ebd.setContent(html_c9e92fe91d7aed45c65fd840c0b1ed48);
+        
+
+        marker_1b98858f7c37e737fba813d8774667f3.bindPopup(popup_f959f1d57d34b3ddfc88dbbf4bed8ebd)
+        ;
+
+        
+    
+    
+            marker_1b98858f7c37e737fba813d8774667f3.bindTooltip(
+                `<div>
+                     Pelican Bay Daytona Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a55d5c409377c821e7605decc664ad0 = L.marker(
+                [28.4006441, -81.6690632],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_7510a9f547dd079ee515bb92b13d3a96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac543b99a1e6bb464e65e5170261ce07 = $(`<div id="html_ac543b99a1e6bb464e65e5170261ce07" style="width: 100.0%; height: 100.0%;">Palms at Serenoa</div>`)[0];
+            popup_7510a9f547dd079ee515bb92b13d3a96.setContent(html_ac543b99a1e6bb464e65e5170261ce07);
+        
+
+        marker_1a55d5c409377c821e7605decc664ad0.bindPopup(popup_7510a9f547dd079ee515bb92b13d3a96)
+        ;
+
+        
+    
+    
+            marker_1a55d5c409377c821e7605decc664ad0.bindTooltip(
+                `<div>
+                     Palms at Serenoa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_293ed3564db8dc71a931439da78f469a = L.marker(
+                [27.4158859, -80.3293153],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_fd649c08fd2a231bdad6a36da11ddc67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6bf707884080c00760cc0d587bec7fe = $(`<div id="html_e6bf707884080c00760cc0d587bec7fe" style="width: 100.0%; height: 100.0%;">Palm Grove</div>`)[0];
+            popup_fd649c08fd2a231bdad6a36da11ddc67.setContent(html_e6bf707884080c00760cc0d587bec7fe);
+        
+
+        marker_293ed3564db8dc71a931439da78f469a.bindPopup(popup_fd649c08fd2a231bdad6a36da11ddc67)
+        ;
+
+        
+    
+    
+            marker_293ed3564db8dc71a931439da78f469a.bindTooltip(
+                `<div>
+                     Palm Grove
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1380ce2385cab74644892e3a4be86fd5 = L.marker(
+                [28.4690558, -81.6299717],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_abb917e3d94fe5e9552983343a4fb3fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cc524d8f73c97c86f68a866e29ff894 = $(`<div id="html_9cc524d8f73c97c86f68a866e29ff894" style="width: 100.0%; height: 100.0%;">Overture Hamlin</div>`)[0];
+            popup_abb917e3d94fe5e9552983343a4fb3fb.setContent(html_9cc524d8f73c97c86f68a866e29ff894);
+        
+
+        marker_1380ce2385cab74644892e3a4be86fd5.bindPopup(popup_abb917e3d94fe5e9552983343a4fb3fb)
+        ;
+
+        
+    
+    
+            marker_1380ce2385cab74644892e3a4be86fd5.bindTooltip(
+                `<div>
+                     Overture Hamlin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d596eea794b15c108cd76ea198be86dc = L.marker(
+                [29.2821323, -81.0800553],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_0450fe791dec247db5789516c42662e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd3e41bcbc80a6036b2d67c092088add = $(`<div id="html_fd3e41bcbc80a6036b2d67c092088add" style="width: 100.0%; height: 100.0%;">Ormond Renaissance</div>`)[0];
+            popup_0450fe791dec247db5789516c42662e9.setContent(html_fd3e41bcbc80a6036b2d67c092088add);
+        
+
+        marker_d596eea794b15c108cd76ea198be86dc.bindPopup(popup_0450fe791dec247db5789516c42662e9)
+        ;
+
+        
+    
+    
+            marker_d596eea794b15c108cd76ea198be86dc.bindTooltip(
+                `<div>
+                     Ormond Renaissance
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76897cce403f0fa86d18261972d31c88 = L.marker(
+                [27.4891022, -80.4219555],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_c054868b91ef584f866223fbbd845c3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dddb0be45e6a4a92ebdc20d25b36140 = $(`<div id="html_2dddb0be45e6a4a92ebdc20d25b36140" style="width: 100.0%; height: 100.0%;">Meadowood</div>`)[0];
+            popup_c054868b91ef584f866223fbbd845c3f.setContent(html_2dddb0be45e6a4a92ebdc20d25b36140);
+        
+
+        marker_76897cce403f0fa86d18261972d31c88.bindPopup(popup_c054868b91ef584f866223fbbd845c3f)
+        ;
+
+        
+    
+    
+            marker_76897cce403f0fa86d18261972d31c88.bindTooltip(
+                `<div>
+                     Meadowood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51e8feaf9a40620dc421f15de4584ed1 = L.marker(
+                [28.335017, -81.4247975],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_e322b2be3d3103c03fda79587e5689eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ed23c3bae999ed179369d517b9c8ce5 = $(`<div id="html_1ed23c3bae999ed179369d517b9c8ce5" style="width: 100.0%; height: 100.0%;">Mariblu Hunters Creek</div>`)[0];
+            popup_e322b2be3d3103c03fda79587e5689eb.setContent(html_1ed23c3bae999ed179369d517b9c8ce5);
+        
+
+        marker_51e8feaf9a40620dc421f15de4584ed1.bindPopup(popup_e322b2be3d3103c03fda79587e5689eb)
+        ;
+
+        
+    
+    
+            marker_51e8feaf9a40620dc421f15de4584ed1.bindTooltip(
+                `<div>
+                     Mariblu Hunters Creek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_650f9cb6e1d26fbc9faad44f57efa6d4 = L.marker(
+                [28.7398654, -81.8653743],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_9b94a7ff49d0e0c39f31205e69105f62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0053dd49f1c00df61b19b4fd1924995 = $(`<div id="html_b0053dd49f1c00df61b19b4fd1924995" style="width: 100.0%; height: 100.0%;">Legacy of Leesburg</div>`)[0];
+            popup_9b94a7ff49d0e0c39f31205e69105f62.setContent(html_b0053dd49f1c00df61b19b4fd1924995);
+        
+
+        marker_650f9cb6e1d26fbc9faad44f57efa6d4.bindPopup(popup_9b94a7ff49d0e0c39f31205e69105f62)
+        ;
+
+        
+    
+    
+            marker_650f9cb6e1d26fbc9faad44f57efa6d4.bindTooltip(
+                `<div>
+                     Legacy of Leesburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfd577dfe356a070fc6dd7d02522ae12 = L.marker(
+                [29.2108147, -81.0228331],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_8864da494204b052a331dcdbacf29ba9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca4d523d7fd147b9d9c50c159128e3f8 = $(`<div id="html_ca4d523d7fd147b9d9c50c159128e3f8" style="width: 100.0%; height: 100.0%;">Latitude Margaritaville</div>`)[0];
+            popup_8864da494204b052a331dcdbacf29ba9.setContent(html_ca4d523d7fd147b9d9c50c159128e3f8);
+        
+
+        marker_bfd577dfe356a070fc6dd7d02522ae12.bindPopup(popup_8864da494204b052a331dcdbacf29ba9)
+        ;
+
+        
+    
+    
+            marker_bfd577dfe356a070fc6dd7d02522ae12.bindTooltip(
+                `<div>
+                     Latitude Margaritaville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6affd7cf9f990a76701eddacc18c0d4d = L.marker(
+                [28.8516184, -81.6204894],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_5e1fade74f28bf7c4e4718a34b55a174 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24b5868deb0eb54af88b8120f5d0bcea = $(`<div id="html_24b5868deb0eb54af88b8120f5d0bcea" style="width: 100.0%; height: 100.0%;">Lakes of Mount Dora</div>`)[0];
+            popup_5e1fade74f28bf7c4e4718a34b55a174.setContent(html_24b5868deb0eb54af88b8120f5d0bcea);
+        
+
+        marker_6affd7cf9f990a76701eddacc18c0d4d.bindPopup(popup_5e1fade74f28bf7c4e4718a34b55a174)
+        ;
+
+        
+    
+    
+            marker_6affd7cf9f990a76701eddacc18c0d4d.bindTooltip(
+                `<div>
+                     Lakes of Mount Dora
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_017291badc853ff38ff494318fc85473 = L.marker(
+                [27.687429, -80.424963],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_772cc7691c2e73f2d09f453b4c16c8c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d164a0ffe9f393c6772155dbf2e64bd9 = $(`<div id="html_d164a0ffe9f393c6772155dbf2e64bd9" style="width: 100.0%; height: 100.0%;">Lakes at Waterway Village</div>`)[0];
+            popup_772cc7691c2e73f2d09f453b4c16c8c1.setContent(html_d164a0ffe9f393c6772155dbf2e64bd9);
+        
+
+        marker_017291badc853ff38ff494318fc85473.bindPopup(popup_772cc7691c2e73f2d09f453b4c16c8c1)
+        ;
+
+        
+    
+    
+            marker_017291badc853ff38ff494318fc85473.bindTooltip(
+                `<div>
+                     Lakes at Waterway Village
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ee640a478ff5d0295c37841c177a0f0 = L.marker(
+                [28.507446, -81.714381],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_a2cd246fbaeb751bf989ed674147fd0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70a29fa13fef17544bb5d41731240f81 = $(`<div id="html_70a29fa13fef17544bb5d41731240f81" style="width: 100.0%; height: 100.0%;">Kings Ridge</div>`)[0];
+            popup_a2cd246fbaeb751bf989ed674147fd0a.setContent(html_70a29fa13fef17544bb5d41731240f81);
+        
+
+        marker_4ee640a478ff5d0295c37841c177a0f0.bindPopup(popup_a2cd246fbaeb751bf989ed674147fd0a)
+        ;
+
+        
+    
+    
+            marker_4ee640a478ff5d0295c37841c177a0f0.bindTooltip(
+                `<div>
+                     Kings Ridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c250cd58dba23ffeaee42bea8cbdc369 = L.marker(
+                [27.6868833, -80.4415405],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_37f889bb82e249c3f5c89de138343e97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_106793e329d0b5f8c980cb7e9dc1b205 = $(`<div id="html_106793e329d0b5f8c980cb7e9dc1b205" style="width: 100.0%; height: 100.0%;">Isles at Waterway Village</div>`)[0];
+            popup_37f889bb82e249c3f5c89de138343e97.setContent(html_106793e329d0b5f8c980cb7e9dc1b205);
+        
+
+        marker_c250cd58dba23ffeaee42bea8cbdc369.bindPopup(popup_37f889bb82e249c3f5c89de138343e97)
+        ;
+
+        
+    
+    
+            marker_c250cd58dba23ffeaee42bea8cbdc369.bindTooltip(
+                `<div>
+                     Isles at Waterway Village
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ee38f514a476367fc659dc39d94071a = L.marker(
+                [28.2503704, -80.710393],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_4e528d08a2e477268d6a1acbfdcd95f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aec146e5bc5c676361bbbabcb0bffa60 = $(`<div id="html_aec146e5bc5c676361bbbabcb0bffa60" style="width: 100.0%; height: 100.0%;">Indian River Colony Club</div>`)[0];
+            popup_4e528d08a2e477268d6a1acbfdcd95f8.setContent(html_aec146e5bc5c676361bbbabcb0bffa60);
+        
+
+        marker_1ee38f514a476367fc659dc39d94071a.bindPopup(popup_4e528d08a2e477268d6a1acbfdcd95f8)
+        ;
+
+        
+    
+    
+            marker_1ee38f514a476367fc659dc39d94071a.bindTooltip(
+                `<div>
+                     Indian River Colony Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e106b133334651c336b7c9a2aeb024a8 = L.marker(
+                [29.2717014, -81.1572821],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_aa2b128f146f90eefa2ea76e0a9ac848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a35a17b05ce1050041ef1e0ee146d78e = $(`<div id="html_a35a17b05ce1050041ef1e0ee146d78e" style="width: 100.0%; height: 100.0%;">Huntington at Hunter‚Äôs Ridge</div>`)[0];
+            popup_aa2b128f146f90eefa2ea76e0a9ac848.setContent(html_a35a17b05ce1050041ef1e0ee146d78e);
+        
+
+        marker_e106b133334651c336b7c9a2aeb024a8.bindPopup(popup_aa2b128f146f90eefa2ea76e0a9ac848)
+        ;
+
+        
+    
+    
+            marker_e106b133334651c336b7c9a2aeb024a8.bindTooltip(
+                `<div>
+                     Huntington at Hunter‚Äôs Ridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6252e1d57dfa82ca850457314f6186f0 = L.marker(
+                [27.559873, -81.429147],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_6c844560b43f44ee6a241a537fdc9587 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dafc6f6b164d5acc91bc63fd57e65c70 = $(`<div id="html_dafc6f6b164d5acc91bc63fd57e65c70" style="width: 100.0%; height: 100.0%;">Highlands Ridge</div>`)[0];
+            popup_6c844560b43f44ee6a241a537fdc9587.setContent(html_dafc6f6b164d5acc91bc63fd57e65c70);
+        
+
+        marker_6252e1d57dfa82ca850457314f6186f0.bindPopup(popup_6c844560b43f44ee6a241a537fdc9587)
+        ;
+
+        
+    
+    
+            marker_6252e1d57dfa82ca850457314f6186f0.bindTooltip(
+                `<div>
+                     Highlands Ridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6620fdf0d46a2fb637f13a79df01c65 = L.marker(
+                [28.7344189, -81.8581635],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_8e9a05c46a36e83dd5b1b4c039496784 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_787993eaaf878c2dac74e239c6a9a19b = $(`<div id="html_787993eaaf878c2dac74e239c6a9a19b" style="width: 100.0%; height: 100.0%;">Highland Lakes</div>`)[0];
+            popup_8e9a05c46a36e83dd5b1b4c039496784.setContent(html_787993eaaf878c2dac74e239c6a9a19b);
+        
+
+        marker_a6620fdf0d46a2fb637f13a79df01c65.bindPopup(popup_8e9a05c46a36e83dd5b1b4c039496784)
+        ;
+
+        
+    
+    
+            marker_a6620fdf0d46a2fb637f13a79df01c65.bindTooltip(
+                `<div>
+                     Highland Lakes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01ded07421d6d95f3d995d8fef328b8d = L.marker(
+                [28.1769915, -81.6149697],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_25b0ab167134996e55656f64a3e35439 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ccb2123fc22deb8d696b69e0d95bf7a = $(`<div id="html_8ccb2123fc22deb8d696b69e0d95bf7a" style="width: 100.0%; height: 100.0%;">High Vista at Ridgewood Lakes</div>`)[0];
+            popup_25b0ab167134996e55656f64a3e35439.setContent(html_8ccb2123fc22deb8d696b69e0d95bf7a);
+        
+
+        marker_01ded07421d6d95f3d995d8fef328b8d.bindPopup(popup_25b0ab167134996e55656f64a3e35439)
+        ;
+
+        
+    
+    
+            marker_01ded07421d6d95f3d995d8fef328b8d.bindTooltip(
+                `<div>
+                     High Vista at Ridgewood Lakes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e504f0f9356ff7f3107d704f903da282 = L.marker(
+                [27.50523, -81.4888028],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_0f4f9e97b10a0342d02212ac7da4df1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70581d91e6dd9d8fa71cfe203ed1b3b7 = $(`<div id="html_70581d91e6dd9d8fa71cfe203ed1b3b7" style="width: 100.0%; height: 100.0%;">Hidden Creek</div>`)[0];
+            popup_0f4f9e97b10a0342d02212ac7da4df1c.setContent(html_70581d91e6dd9d8fa71cfe203ed1b3b7);
+        
+
+        marker_e504f0f9356ff7f3107d704f903da282.bindPopup(popup_0f4f9e97b10a0342d02212ac7da4df1c)
+        ;
+
+        
+    
+    
+            marker_e504f0f9356ff7f3107d704f903da282.bindTooltip(
+                `<div>
+                     Hidden Creek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2059a5a8e8b809445a3fc809febcbd5 = L.marker(
+                [28.2337588, -80.7463852],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_c9e695272de9fbfe18b309daebabcf25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f697fe9b56e494c2db5f2f142abbfdd = $(`<div id="html_7f697fe9b56e494c2db5f2f142abbfdd" style="width: 100.0%; height: 100.0%;">Heritage Isle</div>`)[0];
+            popup_c9e695272de9fbfe18b309daebabcf25.setContent(html_7f697fe9b56e494c2db5f2f142abbfdd);
+        
+
+        marker_d2059a5a8e8b809445a3fc809febcbd5.bindPopup(popup_c9e695272de9fbfe18b309daebabcf25)
+        ;
+
+        
+    
+    
+            marker_d2059a5a8e8b809445a3fc809febcbd5.bindTooltip(
+                `<div>
+                     Heritage Isle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b335bb923391281750eef2cbb25e070 = L.marker(
+                [28.5138526, -81.6933302],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_005073870d56352ca1d622e603e8e97c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10f26f63875d88833b98a9acc5102d9a = $(`<div id="html_10f26f63875d88833b98a9acc5102d9a" style="width: 100.0%; height: 100.0%;">Heritage Hills</div>`)[0];
+            popup_005073870d56352ca1d622e603e8e97c.setContent(html_10f26f63875d88833b98a9acc5102d9a);
+        
+
+        marker_3b335bb923391281750eef2cbb25e070.bindPopup(popup_005073870d56352ca1d622e603e8e97c)
+        ;
+
+        
+    
+    
+            marker_3b335bb923391281750eef2cbb25e070.bindTooltip(
+                `<div>
+                     Heritage Hills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f8e0c5c6bfe2d18e7cbd3c9363b53c2 = L.marker(
+                [28.75331, -81.85547],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_9054975aaeedb62b06bf463f9e7a9ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3447b66737577fe0231f1694cf25ecc9 = $(`<div id="html_3447b66737577fe0231f1694cf25ecc9" style="width: 100.0%; height: 100.0%;">Heritage ‚Äì The Cottages of Sanders Grove</div>`)[0];
+            popup_9054975aaeedb62b06bf463f9e7a9ff2.setContent(html_3447b66737577fe0231f1694cf25ecc9);
+        
+
+        marker_7f8e0c5c6bfe2d18e7cbd3c9363b53c2.bindPopup(popup_9054975aaeedb62b06bf463f9e7a9ff2)
+        ;
+
+        
+    
+    
+            marker_7f8e0c5c6bfe2d18e7cbd3c9363b53c2.bindTooltip(
+                `<div>
+                     Heritage ‚Äì The Cottages of Sanders Grove
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_737652e77c681714d119e895791ff73f = L.marker(
+                [27.6539918, -80.4515927],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_08307c99b3e4f4b6fe4ae019e0fb3737 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fabf2e85edd5834d34e5775735981a63 = $(`<div id="html_fabf2e85edd5834d34e5775735981a63" style="width: 100.0%; height: 100.0%;">Harmony Reserve</div>`)[0];
+            popup_08307c99b3e4f4b6fe4ae019e0fb3737.setContent(html_fabf2e85edd5834d34e5775735981a63);
+        
+
+        marker_737652e77c681714d119e895791ff73f.bindPopup(popup_08307c99b3e4f4b6fe4ae019e0fb3737)
+        ;
+
+        
+    
+    
+            marker_737652e77c681714d119e895791ff73f.bindTooltip(
+                `<div>
+                     Harmony Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dd7a0ce2db625ca9540f1854efd7bf4 = L.marker(
+                [28.930544, -81.854096],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_c1814b85458e7010738355a81e90120f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a7b51e4ed2763ae304e33b735720eb3 = $(`<div id="html_8a7b51e4ed2763ae304e33b735720eb3" style="width: 100.0%; height: 100.0%;">Harbor Hills Country Club</div>`)[0];
+            popup_c1814b85458e7010738355a81e90120f.setContent(html_8a7b51e4ed2763ae304e33b735720eb3);
+        
+
+        marker_1dd7a0ce2db625ca9540f1854efd7bf4.bindPopup(popup_c1814b85458e7010738355a81e90120f)
+        ;
+
+        
+    
+    
+            marker_1dd7a0ce2db625ca9540f1854efd7bf4.bindTooltip(
+                `<div>
+                     Harbor Hills Country Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92349e5b3d307a8553729a27b7931162 = L.marker(
+                [28.262337, -80.7120037],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_93190378ba2dbb3daa1cae13dd70c0e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af2add4fee09c4f862203e5bcd732789 = $(`<div id="html_af2add4fee09c4f862203e5bcd732789" style="width: 100.0%; height: 100.0%;">Grand Isle</div>`)[0];
+            popup_93190378ba2dbb3daa1cae13dd70c0e8.setContent(html_af2add4fee09c4f862203e5bcd732789);
+        
+
+        marker_92349e5b3d307a8553729a27b7931162.bindPopup(popup_93190378ba2dbb3daa1cae13dd70c0e8)
+        ;
+
+        
+    
+    
+            marker_92349e5b3d307a8553729a27b7931162.bindTooltip(
+                `<div>
+                     Grand Isle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1046c230a4fce377fead19e339963137 = L.marker(
+                [27.6838788, -80.4011838],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_3fe48ac2bcce3d4276ee3cc88f91cb32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29819fd2a8aea70032508b9d03849a1b = $(`<div id="html_29819fd2a8aea70032508b9d03849a1b" style="width: 100.0%; height: 100.0%;">Grand Harbor</div>`)[0];
+            popup_3fe48ac2bcce3d4276ee3cc88f91cb32.setContent(html_29819fd2a8aea70032508b9d03849a1b);
+        
+
+        marker_1046c230a4fce377fead19e339963137.bindPopup(popup_3fe48ac2bcce3d4276ee3cc88f91cb32)
+        ;
+
+        
+    
+    
+            marker_1046c230a4fce377fead19e339963137.bindTooltip(
+                `<div>
+                     Grand Harbor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_144f8d1acaf92b144359a927b8949158 = L.marker(
+                [28.3679377, -81.2693826],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_efe019809e7e6a820b9325e883cee3ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00270fe377facfa4943542c2c724523f = $(`<div id="html_00270fe377facfa4943542c2c724523f" style="width: 100.0%; height: 100.0%;">Gatherings of Lake Nona</div>`)[0];
+            popup_efe019809e7e6a820b9325e883cee3ae.setContent(html_00270fe377facfa4943542c2c724523f);
+        
+
+        marker_144f8d1acaf92b144359a927b8949158.bindPopup(popup_efe019809e7e6a820b9325e883cee3ae)
+        ;
+
+        
+    
+    
+            marker_144f8d1acaf92b144359a927b8949158.bindTooltip(
+                `<div>
+                     Gatherings of Lake Nona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a589112b1852b906f07674a07957dcaa = L.marker(
+                [28.3088592, -81.5989668],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_68937093493e2aad9d817f68bdc1dd0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bec8875e649d5da4af2caaf7aef68d7b = $(`<div id="html_bec8875e649d5da4af2caaf7aef68d7b" style="width: 100.0%; height: 100.0%;">Four Seasons at Orlando</div>`)[0];
+            popup_68937093493e2aad9d817f68bdc1dd0a.setContent(html_bec8875e649d5da4af2caaf7aef68d7b);
+        
+
+        marker_a589112b1852b906f07674a07957dcaa.bindPopup(popup_68937093493e2aad9d817f68bdc1dd0a)
+        ;
+
+        
+    
+    
+            marker_a589112b1852b906f07674a07957dcaa.bindTooltip(
+                `<div>
+                     Four Seasons at Orlando
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0655b064e561cdc843df8d2f76242fe2 = L.marker(
+                [28.5786323, -81.7073059],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_1e5ec3c11a720807e2e857f3d7e94cbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9efe57ed5e147741ae3e72eee949ba47 = $(`<div id="html_9efe57ed5e147741ae3e72eee949ba47" style="width: 100.0%; height: 100.0%;">Esplanade at Highland Ranch</div>`)[0];
+            popup_1e5ec3c11a720807e2e857f3d7e94cbd.setContent(html_9efe57ed5e147741ae3e72eee949ba47);
+        
+
+        marker_0655b064e561cdc843df8d2f76242fe2.bindPopup(popup_1e5ec3c11a720807e2e857f3d7e94cbd)
+        ;
+
+        
+    
+    
+            marker_0655b064e561cdc843df8d2f76242fe2.bindTooltip(
+                `<div>
+                     Esplanade at Highland Ranch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c3144cbf1421c6dd698a4aed64df07c = L.marker(
+                [28.4000039, -81.2500734],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_9d688bdfd2106e60b28402ba703e9b54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4582f7823520c265060af7511b4f2c82 = $(`<div id="html_4582f7823520c265060af7511b4f2c82" style="width: 100.0%; height: 100.0%;">Enclave at VillageWalk</div>`)[0];
+            popup_9d688bdfd2106e60b28402ba703e9b54.setContent(html_4582f7823520c265060af7511b4f2c82);
+        
+
+        marker_5c3144cbf1421c6dd698a4aed64df07c.bindPopup(popup_9d688bdfd2106e60b28402ba703e9b54)
+        ;
+
+        
+    
+    
+            marker_5c3144cbf1421c6dd698a4aed64df07c.bindTooltip(
+                `<div>
+                     Enclave at VillageWalk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2e74cc547297a4260d90a05ddb86f4d = L.marker(
+                [28.3236691, -81.1877361],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_81828d27dcf495cedb6702c07f2f8fa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_405ea40b1edef6a31513f630590de980 = $(`<div id="html_405ea40b1edef6a31513f630590de980" style="width: 100.0%; height: 100.0%;">Del Webb Sunbridge</div>`)[0];
+            popup_81828d27dcf495cedb6702c07f2f8fa1.setContent(html_405ea40b1edef6a31513f630590de980);
+        
+
+        marker_e2e74cc547297a4260d90a05ddb86f4d.bindPopup(popup_81828d27dcf495cedb6702c07f2f8fa1)
+        ;
+
+        
+    
+    
+            marker_e2e74cc547297a4260d90a05ddb86f4d.bindTooltip(
+                `<div>
+                     Del Webb Sunbridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_790704ec9c25b8616c036c6228d3f2fa = L.marker(
+                [28.1754406, -81.6213566],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_3e3f23b0df6a054a342b3e4d31d55642 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88eed83416766fd76c527e254796ba97 = $(`<div id="html_88eed83416766fd76c527e254796ba97" style="width: 100.0%; height: 100.0%;">Del Webb Orlando</div>`)[0];
+            popup_3e3f23b0df6a054a342b3e4d31d55642.setContent(html_88eed83416766fd76c527e254796ba97);
+        
+
+        marker_790704ec9c25b8616c036c6228d3f2fa.bindPopup(popup_3e3f23b0df6a054a342b3e4d31d55642)
+        ;
+
+        
+    
+    
+            marker_790704ec9c25b8616c036c6228d3f2fa.bindTooltip(
+                `<div>
+                     Del Webb Orlando
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d332089ac5445dcebe72b15ab11149d5 = L.marker(
+                [28.3667792, -81.6280256],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_d01c2711352f586a4a808b1ce1968358 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18a828f7786f27f347a5ea92f910e759 = $(`<div id="html_18a828f7786f27f347a5ea92f910e759" style="width: 100.0%; height: 100.0%;">Del Webb Oasis</div>`)[0];
+            popup_d01c2711352f586a4a808b1ce1968358.setContent(html_18a828f7786f27f347a5ea92f910e759);
+        
+
+        marker_d332089ac5445dcebe72b15ab11149d5.bindPopup(popup_d01c2711352f586a4a808b1ce1968358)
+        ;
+
+        
+    
+    
+            marker_d332089ac5445dcebe72b15ab11149d5.bindTooltip(
+                `<div>
+                     Del Webb Oasis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_706645143d52e4a7ef9048c84de9a898 = L.marker(
+                [28.6210502, -81.7250399],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_24eb5a7d544a6b9a7e9add167a867843 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9ca78c8e44a3cd96e0cfb8040bcfc79 = $(`<div id="html_d9ca78c8e44a3cd96e0cfb8040bcfc79" style="width: 100.0%; height: 100.0%;">Del Webb Minneola</div>`)[0];
+            popup_24eb5a7d544a6b9a7e9add167a867843.setContent(html_d9ca78c8e44a3cd96e0cfb8040bcfc79);
+        
+
+        marker_706645143d52e4a7ef9048c84de9a898.bindPopup(popup_24eb5a7d544a6b9a7e9add167a867843)
+        ;
+
+        
+    
+    
+            marker_706645143d52e4a7ef9048c84de9a898.bindTooltip(
+                `<div>
+                     Del Webb Minneola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_904e8b99d930d562e100f800fa17555b = L.marker(
+                [28.1995349, -80.7468302],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_8e70f681b7e26877cb5800ac759490a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5e2b739a4096fd7e3aa7ac89c6bc99c = $(`<div id="html_f5e2b739a4096fd7e3aa7ac89c6bc99c" style="width: 100.0%; height: 100.0%;">Del Webb at Viera</div>`)[0];
+            popup_8e70f681b7e26877cb5800ac759490a4.setContent(html_f5e2b739a4096fd7e3aa7ac89c6bc99c);
+        
+
+        marker_904e8b99d930d562e100f800fa17555b.bindPopup(popup_8e70f681b7e26877cb5800ac759490a4)
+        ;
+
+        
+    
+    
+            marker_904e8b99d930d562e100f800fa17555b.bindTooltip(
+                `<div>
+                     Del Webb at Viera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc18619173907e6c54a01b673690d195 = L.marker(
+                [29.0176178, -81.2396713],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_3f53a4c4e137a00c2a097b5934018e07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be073bfa1eb44c4b7b64e618fb9edea4 = $(`<div id="html_be073bfa1eb44c4b7b64e618fb9edea4" style="width: 100.0%; height: 100.0%;">Cresswind DeLand</div>`)[0];
+            popup_3f53a4c4e137a00c2a097b5934018e07.setContent(html_be073bfa1eb44c4b7b64e618fb9edea4);
+        
+
+        marker_cc18619173907e6c54a01b673690d195.bindPopup(popup_3f53a4c4e137a00c2a097b5934018e07)
+        ;
+
+        
+    
+    
+            marker_cc18619173907e6c54a01b673690d195.bindTooltip(
+                `<div>
+                     Cresswind DeLand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_963a8fd48cb7b0b2240bd999127d861d = L.marker(
+                [29.011204, -81.262036],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_7b31d3e428bd32f6d5ae76ba4d433a7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc0a238ad605dc9d8fabc3ddb51976cb = $(`<div id="html_dc0a238ad605dc9d8fabc3ddb51976cb" style="width: 100.0%; height: 100.0%;">Cresswind at Victoria Gardens</div>`)[0];
+            popup_7b31d3e428bd32f6d5ae76ba4d433a7e.setContent(html_dc0a238ad605dc9d8fabc3ddb51976cb);
+        
+
+        marker_963a8fd48cb7b0b2240bd999127d861d.bindPopup(popup_7b31d3e428bd32f6d5ae76ba4d433a7e)
+        ;
+
+        
+    
+    
+            marker_963a8fd48cb7b0b2240bd999127d861d.bindTooltip(
+                `<div>
+                     Cresswind at Victoria Gardens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a4938960b0e0197a0e9ac3a6bc257c3 = L.marker(
+                [28.3611004, -80.7820549],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_c6e14896dbb6622c72ba2c00b5e0d0dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_000c62baadf44e77ef5645fd65847c4e = $(`<div id="html_000c62baadf44e77ef5645fd65847c4e" style="width: 100.0%; height: 100.0%;">Country Oaks</div>`)[0];
+            popup_c6e14896dbb6622c72ba2c00b5e0d0dd.setContent(html_000c62baadf44e77ef5645fd65847c4e);
+        
+
+        marker_0a4938960b0e0197a0e9ac3a6bc257c3.bindPopup(popup_c6e14896dbb6622c72ba2c00b5e0d0dd)
+        ;
+
+        
+    
+    
+            marker_0a4938960b0e0197a0e9ac3a6bc257c3.bindTooltip(
+                `<div>
+                     Country Oaks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f3fde65f0bad048e341ba36d84f41b4 = L.marker(
+                [27.474131, -81.499243],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_e819996518921d4c77f5103e967c2046 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f2faa860ef1bbbd7700508769d197da = $(`<div id="html_0f2faa860ef1bbbd7700508769d197da" style="width: 100.0%; height: 100.0%;">Cormorant Point</div>`)[0];
+            popup_e819996518921d4c77f5103e967c2046.setContent(html_0f2faa860ef1bbbd7700508769d197da);
+        
+
+        marker_5f3fde65f0bad048e341ba36d84f41b4.bindPopup(popup_e819996518921d4c77f5103e967c2046)
+        ;
+
+        
+    
+    
+            marker_5f3fde65f0bad048e341ba36d84f41b4.bindTooltip(
+                `<div>
+                     Cormorant Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98a527cc6f98abadd7fb02bd4df31866 = L.marker(
+                [28.0655864, -80.6500332],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_26b1d4e0019768553d14995a7879e3e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb97df34c10664cb63c360282fc12633 = $(`<div id="html_fb97df34c10664cb63c360282fc12633" style="width: 100.0%; height: 100.0%;">Compass Pointe</div>`)[0];
+            popup_26b1d4e0019768553d14995a7879e3e5.setContent(html_fb97df34c10664cb63c360282fc12633);
+        
+
+        marker_98a527cc6f98abadd7fb02bd4df31866.bindPopup(popup_26b1d4e0019768553d14995a7879e3e5)
+        ;
+
+        
+    
+    
+            marker_98a527cc6f98abadd7fb02bd4df31866.bindTooltip(
+                `<div>
+                     Compass Pointe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4606aa8cc3ad4dacd85a4d911083c509 = L.marker(
+                [27.4631326, -80.3000577],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_9445765aa6810de05d203725788c30ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b30a4294d1916d5d375424788d170b67 = $(`<div id="html_b30a4294d1916d5d375424788d170b67" style="width: 100.0%; height: 100.0%;">Colonnades at Fort Pierce</div>`)[0];
+            popup_9445765aa6810de05d203725788c30ee.setContent(html_b30a4294d1916d5d375424788d170b67);
+        
+
+        marker_4606aa8cc3ad4dacd85a4d911083c509.bindPopup(popup_9445765aa6810de05d203725788c30ee)
+        ;
+
+        
+    
+    
+            marker_4606aa8cc3ad4dacd85a4d911083c509.bindTooltip(
+                `<div>
+                     Colonnades at Fort Pierce
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3bbd0cb70f316f3b734e68e6ea7fd6a = L.marker(
+                [28.3340223, -80.7345661],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_a39c406121fbeced1a46be32692a5e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03bbf2acef53ac83f6af79795ac606ff = $(`<div id="html_03bbf2acef53ac83f6af79795ac606ff" style="width: 100.0%; height: 100.0%;">Carmel Condominium</div>`)[0];
+            popup_a39c406121fbeced1a46be32692a5e7f.setContent(html_03bbf2acef53ac83f6af79795ac606ff);
+        
+
+        marker_b3bbd0cb70f316f3b734e68e6ea7fd6a.bindPopup(popup_a39c406121fbeced1a46be32692a5e7f)
+        ;
+
+        
+    
+    
+            marker_b3bbd0cb70f316f3b734e68e6ea7fd6a.bindTooltip(
+                `<div>
+                     Carmel Condominium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_076bb677b557014a6381d3540f8744bf = L.marker(
+                [27.9578783, -81.6040415],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_b7714289c79ed0df0b255d5c5b57fc37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_626d54cb217ec1d0c6cb1d42bf08df7a = $(`<div id="html_626d54cb217ec1d0c6cb1d42bf08df7a" style="width: 100.0%; height: 100.0%;">Carlsberg Estates on Lake Suzanne</div>`)[0];
+            popup_b7714289c79ed0df0b255d5c5b57fc37.setContent(html_626d54cb217ec1d0c6cb1d42bf08df7a);
+        
+
+        marker_076bb677b557014a6381d3540f8744bf.bindPopup(popup_b7714289c79ed0df0b255d5c5b57fc37)
+        ;
+
+        
+    
+    
+            marker_076bb677b557014a6381d3540f8744bf.bindTooltip(
+                `<div>
+                     Carlsberg Estates on Lake Suzanne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa9dbd22f964bbb09dddc2c7944c4aeb = L.marker(
+                [28.1987624, -80.7271156],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_3455c03ecf366437cc40e5ae95ad4b5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_576a009fbd42aa534c1b2de6c94217a7 = $(`<div id="html_576a009fbd42aa534c1b2de6c94217a7" style="width: 100.0%; height: 100.0%;">Bridgewater at Viera</div>`)[0];
+            popup_3455c03ecf366437cc40e5ae95ad4b5c.setContent(html_576a009fbd42aa534c1b2de6c94217a7);
+        
+
+        marker_aa9dbd22f964bbb09dddc2c7944c4aeb.bindPopup(popup_3455c03ecf366437cc40e5ae95ad4b5c)
+        ;
+
+        
+    
+    
+            marker_aa9dbd22f964bbb09dddc2c7944c4aeb.bindTooltip(
+                `<div>
+                     Bridgewater at Viera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9d27ffbe4eb8c04c9fcde4ebd186a74 = L.marker(
+                [29.2599999, -81.1389118],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_ccea2753fb48ef88c5cb630ead50b3c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe447560d1b1f380fa0d3355f1c5a92c = $(`<div id="html_fe447560d1b1f380fa0d3355f1c5a92c" style="width: 100.0%; height: 100.0%;">Breakaway Trails</div>`)[0];
+            popup_ccea2753fb48ef88c5cb630ead50b3c0.setContent(html_fe447560d1b1f380fa0d3355f1c5a92c);
+        
+
+        marker_f9d27ffbe4eb8c04c9fcde4ebd186a74.bindPopup(popup_ccea2753fb48ef88c5cb630ead50b3c0)
+        ;
+
+        
+    
+    
+            marker_f9d27ffbe4eb8c04c9fcde4ebd186a74.bindTooltip(
+                `<div>
+                     Breakaway Trails
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3993c9de8b09dfab94ef52326f7825c1 = L.marker(
+                [28.8036799, -81.757511],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_7f7b8ef50d361a0e4509bef90cfc2b73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3273356b996310453ebef6638f17428 = $(`<div id="html_c3273356b996310453ebef6638f17428" style="width: 100.0%; height: 100.0%;">Baytree</div>`)[0];
+            popup_7f7b8ef50d361a0e4509bef90cfc2b73.setContent(html_c3273356b996310453ebef6638f17428);
+        
+
+        marker_3993c9de8b09dfab94ef52326f7825c1.bindPopup(popup_7f7b8ef50d361a0e4509bef90cfc2b73)
+        ;
+
+        
+    
+    
+            marker_3993c9de8b09dfab94ef52326f7825c1.bindTooltip(
+                `<div>
+                     Baytree
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a218dc758d8a0c0d6a2a2cb28c728585 = L.marker(
+                [27.4735452, -81.4777426],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_aeadc43d00cbfdc949cd117c3913f294 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c14abd079f349dc10ad91e4f20932944 = $(`<div id="html_c14abd079f349dc10ad91e4f20932944" style="width: 100.0%; height: 100.0%;">Ashley Oaks</div>`)[0];
+            popup_aeadc43d00cbfdc949cd117c3913f294.setContent(html_c14abd079f349dc10ad91e4f20932944);
+        
+
+        marker_a218dc758d8a0c0d6a2a2cb28c728585.bindPopup(popup_aeadc43d00cbfdc949cd117c3913f294)
+        ;
+
+        
+    
+    
+            marker_a218dc758d8a0c0d6a2a2cb28c728585.bindTooltip(
+                `<div>
+                     Ashley Oaks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b8b1ba72d1c4c7a283f597a3f32866f = L.marker(
+                [28.7365991, -81.8829334],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_29d090524655f698a733995c4c2f5fbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba1986576ea46f83d6df2b01c8bffab0 = $(`<div id="html_ba1986576ea46f83d6df2b01c8bffab0" style="width: 100.0%; height: 100.0%;">Arlington Ridge</div>`)[0];
+            popup_29d090524655f698a733995c4c2f5fbd.setContent(html_ba1986576ea46f83d6df2b01c8bffab0);
+        
+
+        marker_0b8b1ba72d1c4c7a283f597a3f32866f.bindPopup(popup_29d090524655f698a733995c4c2f5fbd)
+        ;
+
+        
+    
+    
+            marker_0b8b1ba72d1c4c7a283f597a3f32866f.bindTooltip(
+                `<div>
+                     Arlington Ridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_221c0e10952473f2afd174aa4057f9a0 = L.marker(
+                [29.0306026, -81.2823367],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_3b906867ae417d782ef5ae360bbd2d18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51abac31bf8a2a1dbff0d9266ec966e0 = $(`<div id="html_51abac31bf8a2a1dbff0d9266ec966e0" style="width: 100.0%; height: 100.0%;">Alhambra Villas Condominiums</div>`)[0];
+            popup_3b906867ae417d782ef5ae360bbd2d18.setContent(html_51abac31bf8a2a1dbff0d9266ec966e0);
+        
+
+        marker_221c0e10952473f2afd174aa4057f9a0.bindPopup(popup_3b906867ae417d782ef5ae360bbd2d18)
+        ;
+
+        
+    
+    
+            marker_221c0e10952473f2afd174aa4057f9a0.bindTooltip(
+                `<div>
+                     Alhambra Villas Condominiums
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdb50343fa0b9c27d85453c2ecb16474 = L.marker(
+                [28.3474291, -81.417081],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_58664fe7ebb34c2f4b3f7425b8cbac9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb4ed7e8e272c219fc93894e8a54eda4 = $(`<div id="html_eb4ed7e8e272c219fc93894e8a54eda4" style="width: 100.0%; height: 100.0%;">Album Monterey Pointe</div>`)[0];
+            popup_58664fe7ebb34c2f4b3f7425b8cbac9f.setContent(html_eb4ed7e8e272c219fc93894e8a54eda4);
+        
+
+        marker_fdb50343fa0b9c27d85453c2ecb16474.bindPopup(popup_58664fe7ebb34c2f4b3f7425b8cbac9f)
+        ;
+
+        
+    
+    
+            marker_fdb50343fa0b9c27d85453c2ecb16474.bindTooltip(
+                `<div>
+                     Album Monterey Pointe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2a9da5670d549bca0067c4d535ea6c5 = L.marker(
+                [28.0440525, -80.6319978],
+                {}
+            ).addTo(map_aac7ea940f2b857004c109dc3688aea0);
+        
+    
+        var popup_eefedc054b9ff49a4cdc69227cc0ef54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93e482d844f3ca79390aee5777a2573d = $(`<div id="html_93e482d844f3ca79390aee5777a2573d" style="width: 100.0%; height: 100.0%;">Alamanda Key</div>`)[0];
+            popup_eefedc054b9ff49a4cdc69227cc0ef54.setContent(html_93e482d844f3ca79390aee5777a2573d);
+        
+
+        marker_a2a9da5670d549bca0067c4d535ea6c5.bindPopup(popup_eefedc054b9ff49a4cdc69227cc0ef54)
+        ;
+
+        
+    
+    
+            marker_a2a9da5670d549bca0067c4d535ea6c5.bindTooltip(
+                `<div>
+                     Alamanda Key
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
